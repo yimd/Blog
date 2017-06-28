@@ -1,0 +1,6 @@
+//跳转JS
+var isOpen = location.href.split("?show=")[1];
+	if(isOpen){
+		$(".invite_bg").show();
+	}
+//<a href="/Activity/ActivityRules?show=true">
